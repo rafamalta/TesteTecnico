@@ -22,3 +22,15 @@ D:\Malta\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 D:\Malta\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
 D:\Malta\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
 D:\Malta\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.FrmFormulario.resources
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.FrmPesquisa.resources
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Rafael\Desktop\TesteTecnico\TesteTecnico\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb

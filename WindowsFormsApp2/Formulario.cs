@@ -10,7 +10,6 @@ namespace WindowsFormsApp2
         public string valorA = "";
         public string valorB = "";
 
-
         public FrmFormulario()
         {
             InitializeComponent();
@@ -18,35 +17,68 @@ namespace WindowsFormsApp2
 
         private void Muliplicar_Click(object sender, EventArgs e)
         {
-            double calculo = double.Parse(PrimeiroValor.Text, CultureInfo.InvariantCulture) * double.Parse(SegundoValor.Text, CultureInfo.InvariantCulture);
-            Resultado.Text = calculo.ToString("F2");
+            try
+            {
+                double calculo = double.Parse(PrimeiroValor.Text, CultureInfo.InvariantCulture) * double.Parse(SegundoValor.Text, CultureInfo.InvariantCulture);
+                Resultado.Text = calculo.ToString("F2");
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
         }
 
         private void Dividir_Click(object sender, EventArgs e)
         {
-            if (PrimeiroValor.Text == "0" || SegundoValor.Text == "0")
+            try
             {
-                Resultado.Text = "Não é possível dividir por zero!";
+                if (PrimeiroValor.Text == "0" || SegundoValor.Text == "0")
+                {
+                    Resultado.Text = "Não é possível dividir por zero!";
+                }
+                else
+                {
+                    double calculo = double.Parse(PrimeiroValor.Text, CultureInfo.InvariantCulture) / double.Parse(SegundoValor.Text, CultureInfo.InvariantCulture);
+                    Resultado.Text = calculo.ToString("F2");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                double calculo = double.Parse(PrimeiroValor.Text, CultureInfo.InvariantCulture) / double.Parse(SegundoValor.Text, CultureInfo.InvariantCulture);
-                Resultado.Text = calculo.ToString("F2");
+
+                Console.WriteLine(ex.Message);
             }
         }
 
         private void Limpar_Click(object sender, EventArgs e)
         {
-            PrimeiroValor.Text = null;
-            SegundoValor.Text = null;
-            Resultado.Text = null;
+            try
+            {
+                PrimeiroValor.Text = null;
+                SegundoValor.Text = null;
+                Resultado.Text = null;
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
         }
 
         private void FrmFormulario_Load(object sender, EventArgs e)
         {
-            textDescricao.Text = descricao;
-            PrimeiroValor.Text = valorA;
-            SegundoValor.Text = valorB;
+            try
+            {
+                textDescricao.Text = descricao;
+                PrimeiroValor.Text = valorA;
+                SegundoValor.Text = valorB;
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+
+            }
         }
     }
 }
